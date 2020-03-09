@@ -68,7 +68,8 @@ function background() {
 
   //kevät
   if (month >= 2 && month <= 4) {
-    document.body.style.background = '#000 url(kevat.jpg) no-repeat center top';
+    document.body.style.background =
+      '#000 url(spring.jpg) no-repeat center top';
     photography.innerHTML = 'Kuvaaja eberhard grossgasteiger palvelusta Pexels';
 
     //kesä
@@ -80,13 +81,13 @@ function background() {
 
     //Syksy
   } else if (month >= 8 && month <= 10) {
-    document.body.style.background = '#000 url(syksy.jpg) center top';
+    document.body.style.background = '#000 url(autum.jpg) center top';
     document.body.style.color = 'white';
 
     //Talvi
   } else {
     document.body.style.background =
-      '#000 url(talvi.jpg) no-repeat center top  ';
+      '#000 url(winter.jpg) no-repeat center top  ';
     document.body.style.color = 'white';
     photography.innerHTML = 'Kuvaaja Egor Kamelev palvelusta Pexels';
   }
