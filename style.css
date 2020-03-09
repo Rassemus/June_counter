@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(26, 22, 22);
+  font-weight: bold;
+  font-size: 1.4rem;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.aika_nyt {
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+}
+.time {
+  font-size: 2rem;
+}
+.phot_sect {
+  margin-top: 23rem;
+}
+.phot {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: normal;
+}
+.txt {
+  font-size: 1.7rem;
+  align-items: center;
+}
